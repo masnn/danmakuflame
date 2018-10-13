@@ -1,0 +1,9 @@
+{
+    "editor.smoothScrolling": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "editor.formatOnPaste": true,
+    "files.autoGuessEncoding": true,
+    "files.maxMemoryForLargeFilesMB": 512,
+    "editor.fontFamily": "Source Code Pro, 微软雅黑",
+}

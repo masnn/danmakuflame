@@ -1,0 +1,22 @@
+{
+  "name": "danmakuflame",
+  "version": "1.0.0",
+  "description": "None",
+  "main": "chat.js",
+  "dependencies": {
+    "cq-websocket": "^1.6.1",
+    "cqhttp": "^1.1.1",
+    "express": "^4.16.3",
+    "nodejs-websocket": "^1.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/masnn/danmakuflame"
+  },
+  "author": "masnn",
+  "license": "ISC"
+}

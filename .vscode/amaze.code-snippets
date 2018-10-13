@@ -1,0 +1,1088 @@
+{
+	"am-alert:danger": {
+		"prefix": "am-alert:danger",
+		"body": "\n\n<div class=\"am-alert am-alert-danger\" data-am-alert>\n  <button type=\"button\" class=\"am-close\">&times;</button>\n  <p>${1:内容}</p>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-alert:secondary": {
+		"prefix": "am-alert:secondary",
+		"body": "\n\n<div class=\"am-alert am-alert-secondary\" data-am-alert>\n  <button type=\"button\" class=\"am-close\">&times;</button>\n  <p>${1:内容}</p>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-alert:success": {
+		"prefix": "am-alert:success",
+		"body": "\n\n<div class=\"am-alert am-alert-success\" data-am-alert>\n  <button type=\"button\" class=\"am-close\">&times;</button>\n  <p>${1:内容}</p>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-alert:warning": {
+		"prefix": "am-alert:warning",
+		"body": "\n\n<div class=\"am-alert am-alert-warning\" data-am-alert>\n  <button type=\"button\" class=\"am-close\">&times;</button>\n  <p>${1:内容}</p>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-alert": {
+		"prefix": "am-alert",
+		"body": "\n\n<div class=\"am-alert\" data-am-alert>\n  <button type=\"button\" class=\"am-close\">&times;</button>\n  <p>${1:内容}</p>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-animation:fade": {
+		"prefix": "am-animation:fade",
+		"body": "\n\n<div class=\"am-animation-fade${1: am-animation-reverse}\">fade</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-animation:scale-down": {
+		"prefix": "am-animation:scale-down",
+		"body": "\n\n<div class=\"am-animation-scale-down${1: am-animation-reverse}\">scale-down</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-animation:scale-up": {
+		"prefix": "am-animation:scale-up",
+		"body": "\n\n<div class=\"am-animation-scale-up${1: am-animation-reverse}\">scale-up</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-animation:shake": {
+		"prefix": "am-animation:shake",
+		"body": "\n\n<div class=\"am-animation-shake${1: am-animation-reverse}\">shake</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-animation:slide-bottom": {
+		"prefix": "am-animation:slide-bottom",
+		"body": "\n\n<div class=\"am-animation-slide-bottom${1: am-animation-reverse}\">slide-bottom</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-animation:slide-left": {
+		"prefix": "am-animation:slide-left",
+		"body": "\n\n<div class=\"am-animation-slide-left${1: am-animation-reverse}\">slide-left</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-animation:slide-right": {
+		"prefix": "am-animation:slide-right",
+		"body": "\n\n<div class=\"am-animation-slide-right${1: am-animation-reverse}\">slide-right</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-animation:slide-top": {
+		"prefix": "am-animation:slide-top",
+		"body": "\n\n<div class=\"am-animation-slide-top${1: am-animation-reverse}\">slide-top</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-animation:spin": {
+		"prefix": "am-animation:spin",
+		"body": "\n\n<div class=\"am-animation-spin${1: am-animation-reverse}\">spin</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-animation": {
+		"prefix": "am-animation",
+		"body": "\n\n<div class=\"${1: am-animation-reverse}\"></div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-article": {
+		"prefix": "am-article",
+		"body": "\n\n<article class=\"am-article\">\n  <div class=\"am-article-hd\">\n    <h1 class=\"am-article-title\">${1:title}</h1>\n    <p class=\"am-article-meta\">${2:meta}</p>\n  </div>\n\n  <div class=\"am-article-bd\">\n    <p class=\"am-article-lead\">${3:lead}</p>\n    ${4:内容}\n  </div>\n</article>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-avggrid": {
+		"prefix": "am-avggrid",
+		"body": "\n\n<ul class=\"am-avg-sm-${1:1} am-avg-md-${2:2} am-avg-lg-${3:3}\">\n  <li>${4:内容}</li>\n</ul>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-badge:danger": {
+		"prefix": "am-badge:danger",
+		"body": "\n\n<span class=\"am-badge am-badge-danger\">${1:小徽章}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-badge:lg": {
+		"prefix": "am-badge:lg",
+		"body": "\n\n<span class=\"am-badge am-badge-lg\">${1:小徽章}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-badge:primary": {
+		"prefix": "am-badge:primary",
+		"body": "\n\n<span class=\"am-badge am-badge-primary\">${1:小徽章}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-badge:radius": {
+		"prefix": "am-badge:radius",
+		"body": "\n\n<span class=\"am-badge am-badge-radius\">${1:圆角小徽章}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-badge:round": {
+		"prefix": "am-badge:round",
+		"body": "\n\n<span class=\"am-badge am-badge-round\">${1:椭圆小徽章}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-badge:secondary": {
+		"prefix": "am-badge:secondary",
+		"body": "\n\n<span class=\"am-badge am-badge-secondary\">${1:小徽章}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-badge:sm": {
+		"prefix": "am-badge:sm",
+		"body": "\n\n<span class=\"am-badge am-badge-sm\">${1:小徽章}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-badge:success": {
+		"prefix": "am-badge:success",
+		"body": "\n\n<span class=\"am-badge am-badge-success\">${1:小徽章}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-badge:warning": {
+		"prefix": "am-badge:warning",
+		"body": "\n\n<span class=\"am-badge am-badge-warning\">${1:小徽章}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-badge:xl": {
+		"prefix": "am-badge:xl",
+		"body": "\n\n<span class=\"am-badge am-badge-xl\">${1:小徽章}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-badge:xs": {
+		"prefix": "am-badge:xs",
+		"body": "\n\n<span class=\"am-badge am-badge-xs\">${1:小徽章}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-badge": {
+		"prefix": "am-badge",
+		"body": "\n\n<span class=\"am-badge\">${1:小徽章}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-breadcrumb:icon": {
+		"prefix": "am-breadcrumb:icon",
+		"body": "\n\n<ol class=\"am-breadcrumb\">\n  <li><a href=\"#\" class=\"am-icon-${1:home}\">${2:首页}</a></li>\n  <li><a href=\"#\">${3:分类}</a></li>\n  <li class=\"am-active\">${4:内容}</li>\n</ol>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-breadcrumb:slash": {
+		"prefix": "am-breadcrumb:slash",
+		"body": "\n\n<ol class=\"am-breadcrumb am-breadcrumb-slash\">\n  <li><a href=\"#\">${1:首页}</a></li>\n  <li><a href=\"#\">${2:分类}</a></li>\n  <li class=\"am-active\">${3:内容}</li>\n</ol>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-breadcrumb": {
+		"prefix": "am-breadcrumb",
+		"body": "\n\n<ol class=\"am-breadcrumb\">\n  <li><a href=\"#\">${1:首页}</a></li>\n  <li><a href=\"#\">${2:分类}</a></li>\n  <li class=\"am-active\">${3:内容}</li>\n</ol>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:active": {
+		"prefix": "am-btn:active",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-active\">${1:active 按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:block": {
+		"prefix": "am-btn:block",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-btn-block\">${1:按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:danger": {
+		"prefix": "am-btn:danger",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-btn-danger\">${1:按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:default": {
+		"prefix": "am-btn:default",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-btn-default\">${1:按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:disabled": {
+		"prefix": "am-btn:disabled",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-disabled\">${1:disabled 按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn-group:justify": {
+		"prefix": "am-btn-group:justify",
+		"body": "\n\n<div class=\"am-btn-group am-btn-group-justify\">\n    <a class=\"am-btn am-btn-default\" role=\"button\">${1:自适应宽度}</a>\n    <button type=\"button\" class=\"am-btn am-btn-default\">${2:按钮组}</button>  \n  </div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn-group:lg": {
+		"prefix": "am-btn-group:lg",
+		"body": "\n\n<div class=\"am-btn-group am-btn-group-lg\">\n    <button type=\"button\" class=\"am-btn am-btn-default\">${1:按钮组}</button>  \n  </div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn-group:sm": {
+		"prefix": "am-btn-group:sm",
+		"body": "\n\n<div class=\"am-btn-group am-btn-group-sm\">\n    <button type=\"button\" class=\"am-btn am-btn-default\">${1:按钮组}</button>  \n  </div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn-group:stacked": {
+		"prefix": "am-btn-group:stacked",
+		"body": "\n\n<div class=\"am-btn-group-stacked\">\n    <button type=\"button\" class=\"am-btn am-btn-default\">${1:按钮组}</button>  \n  </div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn-group:toolbar": {
+		"prefix": "am-btn-group:toolbar",
+		"body": "\n\n<div class=\"am-btn-toolbar\">\n  <div class=\"am-btn-group am-btn-group-toolbar\">\n    <button type=\"button\" class=\"am-btn am-btn-default\">${1:按钮组}</button>  \n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn-group:xs": {
+		"prefix": "am-btn-group:xs",
+		"body": "\n\n<div class=\"am-btn-group am-btn-group-xs\">\n    <button type=\"button\" class=\"am-btn am-btn-default\">${1:按钮组}</button>  \n  </div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn-group": {
+		"prefix": "am-btn-group",
+		"body": "\n\n<div class=\"am-btn-group\">\n    <button type=\"button\" class=\"am-btn am-btn-default\">${1:按钮组}</button>  \n  </div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:lg": {
+		"prefix": "am-btn:lg",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-btn-lg\">${1:按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:primary": {
+		"prefix": "am-btn:primary",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-btn-primary\">${1:按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:radius": {
+		"prefix": "am-btn:radius",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-radius\">${1:radius 按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:round": {
+		"prefix": "am-btn:round",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-round\">${1:round 按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:secondary": {
+		"prefix": "am-btn:secondary",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-btn-secondary\">${1:按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:sm": {
+		"prefix": "am-btn:sm",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-btn-sm\">${1:按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:success": {
+		"prefix": "am-btn:success",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-btn-success\">${1:按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:warning": {
+		"prefix": "am-btn:warning",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-btn-warning\">${1:按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:xl": {
+		"prefix": "am-btn:xl",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-btn-xl\">${1:按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn:xs": {
+		"prefix": "am-btn:xs",
+		"body": "\n\n<button type=\"button\" class=\"am-btn am-btn-default am-btn-xs\">${1:按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-btn": {
+		"prefix": "am-btn",
+		"body": "\n\n<button type=\"button\" class=\"am-btn\">${1:按钮}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-cdn:css": {
+		"prefix": "am-cdn:css",
+		"body": "\n\n<!-- Latest compiled and minified css -->\n<link rel=\"stylesheet\" href=\"http://cdn.amazeui.org/amazeui/2.6.1/css/amazeui.min.css\">\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-cdn:js": {
+		"prefix": "am-cdn:js",
+		"body": "\n\n<!-- Latest compiled and minified js -->\n<script src=\"http://staticfile.qnssl.com/jquery/2.2.1/jquery.min.js\"></script>\n<script src=\"http://cdn.amazeui.org/amazeui/2.6.1/js/amazeui.min.js\"></script>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-cdn": {
+		"prefix": "am-cdn",
+		"body": "\n\n<!-- Latest compiled and minified CSS and JS -->\n<link rel=\"stylesheet\" href=\"http://cdn.amazeui.org/amazeui/2.6.1/css/amazeui.min.css\">\n<script src=\"http://staticfile.qnssl.com/jquery/2.2.1/jquery.min.js\"></script>\n<script src=\"http://cdn.amazeui.org/amazeui/2.6.1/js/amazeui.min.js\"></script>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-close:alt": {
+		"prefix": "am-close:alt",
+		"body": "\n\n<button type=\"button\" class=\"am-closeam-close-alt\">&times;</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-close:spin": {
+		"prefix": "am-close:spin",
+		"body": "\n\n<button type=\"button\" class=\"am-closeam-close-spin\">&times;</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-close": {
+		"prefix": "am-close",
+		"body": "\n\n<button type=\"button\" class=\"am-close\">&times;</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-code:scrollable": {
+		"prefix": "am-code:scrollable",
+		"body": "\n\n<pre class=\"am-pre-scrollable\">\n\t<code>\n\t\t${1:code}\n\t</code>\n</pre>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-code": {
+		"prefix": "am-code",
+		"body": "\n\n<pre>\n\t<code>\n\t\t${1:code}\n\t</code>\n</pre>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-collapse:accordion": {
+		"prefix": "am-collapse:accordion",
+		"body": "\n\n<!-- 手风琴折叠效果 -->\n<div class=\"am-panel-group\" id=\"accordion\">\n  <div class=\"am-panel am-panel-default\">\n    <div class=\"am-panel-hd\">\n      <h4 class=\"am-panel-title\" data-am-collapse=\"{parent: '#accordion', target: '#${1:do-not-say-1}'}\">\n        ${2:标题 #1}\n      </h4>\n    </div>\n    <!-- 默认显示 -->\n    <div id=\"${1:do-not-say-1}\" class=\"am-panel-collapse am-collapse am-in\">\n      <div class=\"am-panel-bd\">\n        ${4:内容 #1}\n      </div>\n    </div>\n  </div>\n  <div class=\"am-panel am-panel-default\">\n    <div class=\"am-panel-hd\">\n      <h4 class=\"am-panel-title\" data-am-collapse=\"{parent: '#${5:accordion}', target: '#${6:do-not-say-2}'}\">\n        ${7:标题 #2}\n      </h4>\n    </div>\n    <div id=\"${6:do-not-say-2}\" class=\"am-panel-collapse am-collapse\">\n      <div class=\"am-panel-bd\">\n        ${9:内容 #2}\n      </div>\n    </div>\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-collapse": {
+		"prefix": "am-collapse",
+		"body": "\n\n<!-- 折叠菜单效果 -->\n<button class=\"am-btn am-btn-primary\" data-am-collapse=\"{target: '#${1:collapse-nav}'}\">${2:Menu} <i class=\"am-icon-bars\"></i></button>\n<nav>\n  <ul id=\"${1:collapse-nav}\" class=\"am-nav am-collapse\">\n    <li><a href=\"\">${4:标题}</a></li>\n    <li class=\"am-active\"><a href=\"\">${5:active 标题}</a></li>\n  </ul>\n</nav>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-comment": {
+		"prefix": "am-comment",
+		"body": "\n\n<article class=\"am-comment\"> <!-- 评论容器 -->\n  <a href=\"\">\n    <img class=\"am-comment-avatar\" alt=\"\"/> <!-- 评论者头像 -->\n  </a>\n\n  <div class=\"am-comment-main\"> <!-- 评论内容容器 -->\n    <header class=\"am-comment-hd\">\n      <!--<h3 class=\"am-comment-title\">评论标题</h3>-->\n      <div class=\"am-comment-meta\"> <!-- 评论元数据 -->\n        <a href=\"#link-to-user\" class=\"am-comment-author\">${1:评论者}</a> <!-- 评论者 -->\n        ${2:评论于} <time datetime=\"\"></time>\n      </div>\n    </header>\n\n    <div class=\"am-comment-bd\">${3:评论内容}</div> <!-- 评论内容 -->\n  </div>\n</article>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-datapicker:group": {
+		"prefix": "am-datapicker:group",
+		"body": "\n\n<div class=\"am-input-group am-datepicker-date\" data-am-datepicker>\n  <input type=\"text\" class=\"am-form-field\" placeholder=\"${1:日历组件}\" readonly>\n  <span class=\"am-input-group-btn am-datepicker-add-on\">\n    <button class=\"am-btn am-btn-default\" type=\"button\"><span class=\"am-icon-calendar\"></span> </button>\n  </span>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-datapicker": {
+		"prefix": "am-datapicker",
+		"body": "\n\n<p><input type=\"text\" class=\"am-form-field\" placeholder=\"${1:日历组件}\" data-am-datepicker /></p>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-dropdown:content": {
+		"prefix": "am-dropdown:content",
+		"body": "\n\n<div class=\"am-dropdown\" data-am-dropdown>\n  <button class=\"am-btn am-btn-success am-dropdown-toggle\">${1:Dropdown} <span class=\"am-icon-caret-down\"></span></button>\n  <div class=\"am-dropdown-content\">\n    ${2:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-dropdown:justify": {
+		"prefix": "am-dropdown:justify",
+		"body": "\n\n<div id=\"${1:doc-dropdown-justify}\">\n  <div class=\"am-dropdown\" data-am-dropdown=\"{justify: '#${1:doc-dropdown-justify}'}\">\n    <button class=\"am-btn am-btn-success am-dropdown-toggle\">${3:宽度适应下拉}<span class=\"am-icon-caret-down\"></span></button>\n    <div class=\"am-dropdown-content\">\n      <h2>${4:标题}</h2>\n      <p>\n        ${5:内容}\n      </p>\n    </div>\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-dropdown:up": {
+		"prefix": "am-dropdown:up",
+		"body": "\n\n<div class=\"am-dropdown am-dropdown-up\" data-am-dropdown>\n  <button class=\"am-btn am-btn-danger am-dropdown-toggle\" data-am-dropdown-toggle>${1:上拉列表} <span class=\"am-icon-caret-up\"></span></button>\n  <ul class=\"am-dropdown-content\">\n    <li class=\"am-dropdown-header\">${2:标题}</li>\n    <li><a href=\"#\">${3:li}</a></li>\n    <li class=\"am-active\"><a href=\"#\">${4:active li}</a></li>\n    <li class=\"am-disabled\"><a href=\"#\">${5:disabled li}</a></li>\n    <li class=\"am-divider\"></li>\n  </ul>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-dropdown": {
+		"prefix": "am-dropdown",
+		"body": "\n\n<div class=\"am-dropdown\" data-am-dropdown>\n<button class=\"am-btn am-btn-primary am-dropdown-toggle\" data-am-dropdown-toggle>${1:下拉列表} <span class=\"am-icon-caret-down\"></span></button>\n  <ul class=\"am-dropdown-content\">\n    <li class=\"am-dropdown-header\">${2:标题}</li>\n    <li><a href=\"#\">${3:li}</a></li>\n    <li class=\"am-active\"><a href=\"#\">${4:active li}</a></li>\n    <li class=\"am-disabled\"><a href=\"#\">${5:disabled li}</a></li>\n    <li class=\"am-divider\"></li>\n  </ul>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-form:horizontal": {
+		"prefix": "am-form:horizontal",
+		"body": "\n\n<form action=\"${1:action}\" method=\"POST\" role=\"form\" class=\"am-form am-form-horizontal\">\n  <!-- form 结合 grid 使用 -->\n  <div class=\"am-form-group\">\n    <label for=\"\" class=\"am-u-sm-${2:2} am-form-label\">${3:电子邮件}</label>\n    <div class=\"am-u-sm-10\">\n      <input type=\"email\" id=\"\" placeholder=\"${4:输入你的电子邮件}\" />\n    </div>\n  </div>\n\n  <div class=\"am-form-group\">\n    <div class=\"am-u-sm-${5:10} am-u-sm-offset-${2:2}\">\n      <button type=\"submit\" class=\"am-btn am-btn-default\">${7:提交登入}</button>\n    </div>\n  </div>\n</form>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-form:inline": {
+		"prefix": "am-form:inline",
+		"body": "\n\n<form action=\"${1:action}\" method=\"POST\" role=\"form\" class=\"am-form am-form-inline\">\n  <legend>${2:表单标题}</legend>\n\n  <div class=\"am-form-group\">\n    <label for=\"\">${3:姓名}</label>\n    <input type=\"text\" id=\"\" placeholder=\"${4:输入你的姓名}\">\n  </div>\n\n  <button type=\"submit\" class=\"am-btn am-btn-primary\">${5:提交}</button>\n</form>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-form": {
+		"prefix": "am-form",
+		"body": "\n\n<form action=\"${1:action}\" method=\"POST\" role=\"form\" class=\"am-form\">\n  <legend>${2:表单标题}</legend>\n\n  <div class=\"am-form-group\">\n    <label for=\"\">${3:姓名}</label>\n    <input type=\"text\" id=\"\" placeholder=\"${4:输入你的姓名}\">\n  </div>\n\n  <button type=\"submit\" class=\"am-btn am-btn-primary\">${5:提交}</button>\n</form>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:1": {
+		"prefix": "am-grid:1",
+		"body": "\n\n<div class=\"am-g\">\n  <div class=\"am-u-sm-1 am-u-md-1 am-u-lg-1\">\n    ${1:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:10": {
+		"prefix": "am-grid:10",
+		"body": "\n\n<div class=\"am-g\">\n  <div class=\"am-u-sm-10 am-u-md-10 am-u-lg-10\">\n    ${1:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:11": {
+		"prefix": "am-grid:11",
+		"body": "\n\n<div class=\"am-g\">\n  <div class=\"am-u-sm-11 am-u-md-11 am-u-lg-11\">\n    ${1:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:12": {
+		"prefix": "am-grid:12",
+		"body": "\n\n<div class=\"am-g\">\n  <div class=\"am-u-sm-12 am-u-md-12 am-u-lg-12\">\n    ${1:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:2": {
+		"prefix": "am-grid:2",
+		"body": "\n\n<div class=\"am-g am-g-2\">\n  <div class=\"am-u-sm-${1:1} am-u-md-${2:2} am-u-lg-${3:3}\">\n    ${4:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:3": {
+		"prefix": "am-grid:3",
+		"body": "\n\n<div class=\"am-g am-g-3\">\n  <div class=\"am-u-sm-${1:1} am-u-md-${2:2} am-u-lg-${3:3}\">\n    ${4:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:4": {
+		"prefix": "am-grid:4",
+		"body": "\n\n<div class=\"am-g am-g-4\">\n  <div class=\"am-u-sm-${1:1} am-u-md-${2:2} am-u-lg-${3:3}\">\n    ${4:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:5": {
+		"prefix": "am-grid:5",
+		"body": "\n\n<div class=\"am-g am-g-5\">\n  <div class=\"am-u-sm-${1:1} am-u-md-${2:2} am-u-lg-${3:3}\">\n    ${4:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:6": {
+		"prefix": "am-grid:6",
+		"body": "\n\n<div class=\"am-g am-g-6\">\n  <div class=\"am-u-sm-${1:1} am-u-md-${2:2} am-u-lg-${3:3}\">\n    ${4:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:7": {
+		"prefix": "am-grid:7",
+		"body": "\n\n<div class=\"am-g am-g-7\">\n  <div class=\"am-u-sm-${1:1} am-u-md-${2:2} am-u-lg-${3:3}\">\n    ${4:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:8": {
+		"prefix": "am-grid:8",
+		"body": "\n\n<div class=\"am-g am-g-8\">\n  <div class=\"am-u-sm-${1:1} am-u-md-${2:2} am-u-lg-${3:3}\">\n    ${4:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:9": {
+		"prefix": "am-grid:9",
+		"body": "\n\n<div class=\"am-g am-g-9\">\n  <div class=\"am-u-sm-${1:1} am-u-md-${2:2} am-u-lg-${3:3}\">\n    ${4:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:collapse": {
+		"prefix": "am-grid:collapse",
+		"body": "\n\n<div class=\"am-g am-g-collapse\">\n  <div class=\"am-u-sm-${1:1} am-u-md-${2:2} am-u-lg-${3:3}\">\n    ${4:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:container": {
+		"prefix": "am-grid:container",
+		"body": "\n\n<div class=\"am-container\">\n  <div class=\"am-g\">\n    <div class=\"am-u-sm-${1:1} am-u-md-${2:2} am-u-lg-${3:3}\">\n      ${4:内容}\n    </div>\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid:fixed": {
+		"prefix": "am-grid:fixed",
+		"body": "\n\n<div class=\"am-g am-g-fixed\">\n  <div class=\"am-u-sm-${1:1} am-u-md-${2:2} am-u-lg-${3:3}\">\n    ${4:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-grid": {
+		"prefix": "am-grid",
+		"body": "\n\n<div class=\"am-g\">\n  <div class=\"am-u-sm-${1:1} am-u-md-${2:2} am-u-lg-${3:3}\">\n    ${4:内容}\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-html": {
+		"prefix": "am-html",
+		"body": "\n\n<!doctype html>\n<html class=\"no-js\">\n<head>\n  <meta charset=\"utf-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"description\" content=\"\">\n  <meta name=\"keywords\" content=\"\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\">\n  <title>${1:你的标题}</title>\n\n  <!-- Set render engine for 360 browser -->\n  <meta name=\"renderer\" content=\"webkit\">\n\n  <!-- No Baidu Siteapp-->\n  <meta http-equiv=\"Cache-Control\" content=\"no-siteapp\"/>\n\n  <link rel=\"icon\" type=\"image/png\" href=\"i/favicon.png\">\n\n  <!-- Add to homescreen for Chrome on Android -->\n  <meta name=\"mobile-web-app-capable\" content=\"yes\">\n  <link rel=\"icon\" sizes=\"192x192\" href=\"i/app-icon72x72@2x.png\">\n\n  <!-- Add to homescreen for Safari on iOS -->\n  <meta name=\"apple-mobile-web-app-capable\" content=\"yes\">\n  <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black\">\n  <meta name=\"apple-mobile-web-app-title\" content=\"${2:Amaze UI}\"/>\n  <link rel=\"apple-touch-icon-precomposed\" href=\"i/app-icon72x72@2x.png\">\n\n  <!-- Tile icon for Win8 (144x144 + tile color) -->\n  <meta name=\"msapplication-TileImage\" content=\"i/app-icon72x72@2x.png\">\n  <meta name=\"msapplication-TileColor\" content=\"#0e90d2\">\n\n  <!-- Amaze UI CSS -->\n  <link rel=\"stylesheet\" href=\"//cdn.amazeui.org/amazeui/2.1.0/css/amazeui.min.css\">\n\n</head>\n<body>\n\n<div>${3:开始写你的码...}</div>\n\n<!--[if lt IE 9]>\n<script src=\"//libs.useso.com/js/jquery/1.11.1/jquery.min.js\"></script>\n<script src=\"//cdn.staticfile.org/modernizr/2.8.3/modernizr.js\"></script>\n<script src=\"/js/polyfill/rem.min.js\"></script>\n<script src=\"//libs.useso.com/js/respond.js/1.4.2/respond.min.js\"></script>\n<script src=\"//cdn.amazeui.org/amazeui/2.1.0/js/amazeui.legacy.min.js\"></script>\n<![endif]-->\n\n<!--[if (gte IE 9)|!(IE)]><!-->\n<script src=\"//libs.useso.com/js/jquery/2.1.1/jquery.min.js\"></script>\n<script src=\"//cdn.amazeui.org/amazeui/2.1.0/js/amazeui.min.js\"></script>\n<!--<![endif]-->\n\n</body>\n</html>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-icon:btn": {
+		"prefix": "am-icon:btn",
+		"body": "\n\n<span class=\"am-icon-${1:home} am-icon-btn\">${2:字体图标}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-icon:lg": {
+		"prefix": "am-icon:lg",
+		"body": "\n\n<span class=\"am-icon-${1:home} am-icon-lg\">${2:字体图标}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-icon:md": {
+		"prefix": "am-icon:md",
+		"body": "\n\n<span class=\"am-icon-${1:home} am-icon-md\">${2:字体图标}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-icon:sm": {
+		"prefix": "am-icon:sm",
+		"body": "\n\n<span class=\"am-icon-${1:home} am-icon-sm\">${2:字体图标}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-icon:spin": {
+		"prefix": "am-icon:spin",
+		"body": "\n\n<span class=\"am-icon-${1:home} am-icon-spin\">${2:字体图标}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-icon": {
+		"prefix": "am-icon",
+		"body": "\n\n<span class=\"am-icon-${1:home}\">${2:字体图标}</span>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-img:circle": {
+		"prefix": "am-img:circle",
+		"body": "\n\n<img class=\"am-circle\" alt=\"\" src=\"${1:图片地址}\" width=\"\" height=\"\" />\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-img:radius": {
+		"prefix": "am-img:radius",
+		"body": "\n\n<img class=\"am-radius\" alt=\"\" src=\"${1:图片地址}\" width=\"\" height=\"\" />\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-img:round": {
+		"prefix": "am-img:round",
+		"body": "\n\n<img class=\"am-round\" alt=\"\" src=\"${1:图片地址}\" width=\"\" height=\"\" />\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-img:thumbnail": {
+		"prefix": "am-img:thumbnail",
+		"body": "\n\n<img class=\"am-img-thumbnail\" alt=\"\" src=\"${1:图片地址}\" width=\"\" height=\"\" />\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-img": {
+		"prefix": "am-img",
+		"body": "\n\n<img alt=\"\" src=\"${1:图片地址}\" width=\"\" height=\"\" />\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-input-group:btn": {
+		"prefix": "am-input-group:btn",
+		"body": "\n\n<div class=\"am-input-group am-input-group-btn\">\n  <span class=\"am-input-group-btn\">\n    <button class=\"am-btn am-btn-default\" type=\"button\">${1:<span class=\"am-icon-search\"></span>}</button>\n  </span>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-input-group:danger": {
+		"prefix": "am-input-group:danger",
+		"body": "\n\n<div class=\"am-input-group am-input-group-danger\">\n  <span class=\"am-input-group-label\">    \n    <i class=\"am-icon-user\"></i>    \n  </span>\n  <input type=\"text\" class=\"am-form-field\" placeholder=\"${1:Username}\">\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-input-group:lg": {
+		"prefix": "am-input-group:lg",
+		"body": "\n\n<div class=\"am-input-group am-input-group-lg\">\n  <span class=\"am-input-group-label\">    \n    <i class=\"am-icon-user\"></i>    \n  </span>\n  <input type=\"text\" class=\"am-form-field\" placeholder=\"${1:Username}\">\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-input-group:primary": {
+		"prefix": "am-input-group:primary",
+		"body": "\n\n<div class=\"am-input-group am-input-group-primary\">\n  <span class=\"am-input-group-label\">    \n    <i class=\"am-icon-user\"></i>    \n  </span>\n  <input type=\"text\" class=\"am-form-field\" placeholder=\"${1:Username}\">\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-input-group:secondary": {
+		"prefix": "am-input-group:secondary",
+		"body": "\n\n<div class=\"am-input-group am-input-group-secondary\">\n  <span class=\"am-input-group-label\">    \n    <i class=\"am-icon-user\"></i>    \n  </span>\n  <input type=\"text\" class=\"am-form-field\" placeholder=\"${1:Username}\">\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-input-group:sm": {
+		"prefix": "am-input-group:sm",
+		"body": "\n\n<div class=\"am-input-group am-input-group-sm\">\n  <span class=\"am-input-group-label\">    \n    <i class=\"am-icon-user\"></i>    \n  </span>\n  <input type=\"text\" class=\"am-form-field\" placeholder=\"${1:Username}\">\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-input-group:success": {
+		"prefix": "am-input-group:success",
+		"body": "\n\n<div class=\"am-input-group am-input-group-success\">\n  <span class=\"am-input-group-label\">    \n    <i class=\"am-icon-user\"></i>    \n  </span>\n  <input type=\"text\" class=\"am-form-field\" placeholder=\"${1:Username}\">\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-input-group:warning": {
+		"prefix": "am-input-group:warning",
+		"body": "\n\n<div class=\"am-input-group am-input-group-warning\">\n  <span class=\"am-input-group-label\">    \n    <i class=\"am-icon-user\"></i>    \n  </span>\n  <input type=\"text\" class=\"am-form-field\" placeholder=\"${1:Username}\">\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-input-group": {
+		"prefix": "am-input-group",
+		"body": "\n\n<div class=\"am-input-group\">\n  <span class=\"am-input-group-label\">    \n    <i class=\"am-icon-user\"></i>    \n  </span>\n  <input type=\"text\" class=\"am-form-field\" placeholder=\"${1:Username}\">\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-list:border": {
+		"prefix": "am-list:border",
+		"body": "\n\n<ul class=\"am-list am-list-border\">\n  <li><a href=\"#\">${1:列表内容}</a></li>\n</ul>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-list:static": {
+		"prefix": "am-list:static",
+		"body": "\n\n<ul class=\"am-list am-list-static\">\n  <li><!-- 纯文字列表 -->${1:列表内容} </li>\n</ul>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-list:striped": {
+		"prefix": "am-list:striped",
+		"body": "\n\n<ul class=\"am-list am-list-striped\">\n  <li><a href=\"#\">${1:列表内容}</a></li>\n</ul>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-list": {
+		"prefix": "am-list",
+		"body": "\n\n<ul class=\"am-list\">\n  <li><a href=\"#\">${1:列表内容}</a></li>\n</ul>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-modal:actions": {
+		"prefix": "am-modal:actions",
+		"body": "\n\n<!-- 触发 button -->\n<button class=\"am-btn am-btn-secondary\" data-am-modal=\"{target: '#${1:my-id}'}\">actions</button>\n<div class=\"am-modal-actions\" id=\"${2:my-actions}\">\n  <div class=\"am-modal-actions-group\">\n    <ul class=\"am-list\">\n      <li class=\"am-modal-actions-header\"></li>\n      <li><a href=\"#\"><span class=\"am-icon-${3:wechat}\"></span>${4:wechat 标题}</a></li>\n      <li><a href=\"#\"><i class=\"am-icon-${5:mobile}\"></i>${6:mobile 标题}</a></li>\n      <li class=\"am-modal-actions-danger\"><a href=\"#\"><i class=\"am-icon-${7:twitter}\"></i> ${8:twitter 标题} </a></li>\n    </ul>\n  </div>\n  <div class=\"am-modal-actions-group\">\n    <button class=\"am-btn am-btn-secondary am-btn-block\" data-am-modal-close>${9:取消}</button>\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-modal:alert": {
+		"prefix": "am-modal:alert",
+		"body": "\n\n<!-- 触发 button -->\n<button class=\"am-btn am-btn-secondary\" data-am-modal=\"{target: '#${1:my-id}'}\">alert</button>\n<div class=\"am-modal am-modal-alert\" tabindex=\"-1\" id=\"${2:my-alert}\">\n  <div class=\"am-modal-dialog\">\n    <div class=\"am-modal-hd\">${3:Modal Alert 标题}</div>\n    <div class=\"am-modal-bd\">\n      ${4:Hello world！}\n    </div>\n    <div class=\"am-modal-footer\">\n      <span class=\"am-modal-btn\">确定</span>\n    </div>\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-modal:confirm": {
+		"prefix": "am-modal:confirm",
+		"body": "\n\n<!-- 触发 button -->\n<button class=\"am-btn am-btn-secondary\" data-am-modal=\"{target: '#${1:my-id}'}\">confirm</button>\n<div class=\"am-modal am-modal-confirm\" tabindex=\"-1\" id=\"${2:my-confirm}\">\n  <div class=\"am-modal-dialog\">\n    <div class=\"am-modal-hd\">${3:confirm title}</div>\n    <div class=\"am-modal-bd\">\n      ${4:内容}\n    </div>\n    <div class=\"am-modal-footer\">\n      <span class=\"am-modal-btn\" data-am-modal-cancel>取消</span>\n      <span class=\"am-modal-btn\" data-am-modal-confirm>确定</span>\n    </div>\n  </div>\n</div>\n<div class=\"am-modal am-modal-prompt\" tabindex=\"-1\" id=\"${5:my-prompt}\">\n  <div class=\"am-modal-dialog\">\n    <div class=\"am-modal-hd\">${6:标题}</div>\n    <div class=\"am-modal-bd\">\n      ${4:内容}\n      <input type=\"text\" class=\"am-modal-prompt-input\">\n    </div>\n    <div class=\"am-modal-footer\">\n      <span class=\"am-modal-btn\" data-am-modal-cancel>取消</span>\n      <span class=\"am-modal-btn\" data-am-modal-confirm>提交</span>\n    </div>\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-modal:loading": {
+		"prefix": "am-modal:loading",
+		"body": "\n\n<!-- 触发 button -->\n<button class=\"am-btn am-btn-secondary\" data-am-modal=\"{target: '#${1:my-id}'}\">loading</button>\n<div class=\"am-modal am-modal-loading am-modal-no-btn\" tabindex=\"-1\" id=\"${2:my-modal-loading}\">\n  <div class=\"am-modal-dialog\">\n    <div class=\"am-modal-hd\">${3:正在载入...}</div>\n    <div class=\"am-modal-bd\">\n      <span class=\"am-icon-spinner am-icon-spin\"></span>\n    </div>\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-modal:popup": {
+		"prefix": "am-modal:popup",
+		"body": "\n\n<!-- 触发 button -->\n<button class=\"am-btn am-btn-secondary\" data-am-modal=\"{target: '#${1:my-id}'}\">popup</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-modal:prompt": {
+		"prefix": "am-modal:prompt",
+		"body": "\n\n<!-- 触发 button -->\n<button class=\"am-btn am-btn-secondary\" data-am-modal=\"{target: '#${1:my-id}'}\">prompt</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-modal": {
+		"prefix": "am-modal",
+		"body": "\n\n<!-- 触发 button -->\n<button class=\"am-btn am-btn-primary\" data-am-modal>${1:Modal}</button>\n<div class=\"am-modal am-modal-no-btn\" tabindex=\"-1\">\n  <div class=\"am-modal-dialog\">\n    <div class=\"am-modal-hd\">${2:Modal 标题}\n      <a href=\"javascript: void(0)\" class=\"am-close am-close-spin\" data-am-modal-close>&times;</a>\n    </div>\n    <div class=\"am-modal-bd\">\n      ${3:Modal 内容}\n    </div>\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-nav:justify": {
+		"prefix": "am-nav:justify",
+		"body": "\n\n<ul class=\"am-nav am-nav-justify\">\n  <li class=\"am-active\"><a href=\"#\">${1:active列表}</a></li>\n  <li><a href=\"#\">${2:列表}</a></li>\n</ul>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-nav:pills": {
+		"prefix": "am-nav:pills",
+		"body": "\n\n<ul class=\"am-nav am-nav-pills\">\n  <li class=\"am-active\"><a href=\"#\">${1:active列表}</a></li>\n  <li><a href=\"#\">${2:列表}</a></li>\n</ul>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-nav:tabs": {
+		"prefix": "am-nav:tabs",
+		"body": "\n\n<ul class=\"am-nav am-nav-tabs\">\n  <li class=\"am-active\"><a href=\"#\">${1:active列表}</a></li>\n  <li><a href=\"#\">${2:列表}</a></li>\n</ul>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-nav": {
+		"prefix": "am-nav",
+		"body": "\n\n<ul class=\"am-nav\">\n  <li class=\"am-active\"><a href=\"#\">${1:active列表}</a></li>\n  <li><a href=\"#\">${2:列表}</a></li>\n</ul>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-offcanvas:flip": {
+		"prefix": "am-offcanvas:flip",
+		"body": "\n\n<!-- 按钮触发器 -->\n<button class=\"am-btn am-btn-primary\" data-am-offcanvas=\"{target: '${1:#your-id}'}\">${2:点击显示侧边栏}</button>\n<!-- 侧边栏内容 -->\n<div id=\"${3:your-id}\" class=\"am-offcanvas\">\n  <div class=\"am-offcanvas-bar am-offcanvas-bar-flip\">\n    <div class=\"am-offcanvas-content\">\n    <!-- 你的内容 -->\n    ${4:内容}\n    </div>\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-offcanvas": {
+		"prefix": "am-offcanvas",
+		"body": "\n\n<!-- 按钮触发器 -->\n<button class=\"am-btn am-btn-primary\" data-am-offcanvas=\"{target: '${1:#your-id}'}\">${2:点击显示侧边栏}</button>\n<!-- 侧边栏内容 -->\n<div id=\"${3:your-id}\" class=\"am-offcanvas\">\n  <div class=\"am-offcanvas-bar\">\n    <div class=\"am-offcanvas-content\">\n    <!-- 你的内容 -->\n    ${4:内容}\n    </div>\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-pagination:centered": {
+		"prefix": "am-pagination:centered",
+		"body": "\n\n<ul class=\"am-pagination am-pagination-centered\">\n  <li class=\"am-disabled\"><a href=\"#\">&laquo;</a></li>\n  <li class=\"am-active\"><a href=\"#\">${1:1}</a></li>\n  <li><a href=\"#\">${2:2}</a></li>\n  <li><a href=\"#\">${3:3}</a></li>\n  <li><a href=\"#\">&raquo;</a></li>\n</ul>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-pagination:prevnext": {
+		"prefix": "am-pagination:prevnext",
+		"body": "\n\n<ul class=\"am-pagination\">\n  <li class=\"am-pagination-prev\"><a href=\"#\">&laquo; Prev</a></li>\n  <li class=\"am-pagination-next\"><a href=\"#\">Next &raquo;</a></li>\n</ul>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-pagination:right": {
+		"prefix": "am-pagination:right",
+		"body": "\n\n<ul class=\"am-pagination am-pagination-right\">\n  <li class=\"am-disabled\"><a href=\"#\">&laquo;</a></li>\n  <li class=\"am-active\"><a href=\"#\">${1:1}</a></li>\n  <li><a href=\"#\">${2:2}</a></li>\n  <li><a href=\"#\">${3:3}</a></li>\n  <li><a href=\"#\">&raquo;</a></li>\n</ul>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-pagination": {
+		"prefix": "am-pagination",
+		"body": "\n\n<ul class=\"am-pagination\">\n  <li class=\"am-disabled\"><a href=\"#\">&laquo;</a></li>\n  <li class=\"am-active\"><a href=\"#\">${1:1}</a></li>\n  <li><a href=\"#\">${2:2}</a></li>\n  <li><a href=\"#\">${3:3}</a></li>\n  <li><a href=\"#\">&raquo;</a></li>\n</ul>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-panel:danger": {
+		"prefix": "am-panel:danger",
+		"body": "\n\n<section class=\"am-panel am-panel-danger\">\n  <header class=\"am-panel-hd\">\n    <h3 class=\"am-panel-title\">${1:面板标题}</h3>\n  </header>\n  <div class=\"am-panel-bd\">\n    ${2:面板内容}\n  </div>\n  <footer class=\"am-panel-footer\">${3:面板页脚}</footer>\n</section>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-panel:footer": {
+		"prefix": "am-panel:footer",
+		"body": "\n\n<section class=\"am-panel am-panel-default\">\n  <div class=\"am-panel-bd\">\n    ${1:面板内容}\n  </div>\n  <footer class=\"am-panel-footer\">${2:面板页脚}</footer>\n</section>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-panel:group": {
+		"prefix": "am-panel:group",
+		"body": "\n\n<div class=\"am-panel-group\">\n  <section class=\"am-panel am-panel-default\">\n    <header class=\"am-panel-hd\">\n      <h3 class=\"am-panel-title\">${1:面板标题1}</h3>\n    </header>\n    <div class=\"am-panel-bd\">\n      ${2:面板内容1}\n    </div>\n    <footer class=\"am-panel-footer\">${3:面板页脚1}</footer>\n  </section>\n  <section class=\"am-panel am-panel-default\">\n    <header class=\"am-panel-hd\">\n      <h3 class=\"am-panel-title\">${4:面板标题2}</h3>\n    </header>\n    <div class=\"am-panel-bd\">\n      ${5:面板内容2}\n    </div>\n    <footer class=\"am-panel-footer\">${6:面板页脚2}</footer>\n  </section>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-panel:list": {
+		"prefix": "am-panel:list",
+		"body": "\n\n<section class=\"am-panel am-panel-default\">\n  <div class=\"am-panel-bd\">\n    ${1:面板内容}\n  </div>\n  <ul class=\"am-list am-list-static\">\n    <li></li>\n  </ul>\n  <footer class=\"am-panel-footer\">${2:面板页脚}</footer>\n</section>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-panel:primary": {
+		"prefix": "am-panel:primary",
+		"body": "\n\n<section class=\"am-panel am-panel-primary\">\n  <header class=\"am-panel-hd\">\n    <h3 class=\"am-panel-title\">${1:面板标题}</h3>\n  </header>\n  <div class=\"am-panel-bd\">\n    ${2:面板内容}\n  </div>\n  <footer class=\"am-panel-footer\">${3:面板页脚}</footer>\n</section>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-panel:secondary": {
+		"prefix": "am-panel:secondary",
+		"body": "\n\n<section class=\"am-panel am-panel-secondary\">\n  <header class=\"am-panel-hd\">\n    <h3 class=\"am-panel-title\">${1:面板标题}</h3>\n  </header>\n  <div class=\"am-panel-bd\">\n    ${2:面板内容}\n  </div>\n  <footer class=\"am-panel-footer\">${3:面板页脚}</footer>\n</section>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-panel:success": {
+		"prefix": "am-panel:success",
+		"body": "\n\n<section class=\"am-panel am-panel-success\">\n  <header class=\"am-panel-hd\">\n    <h3 class=\"am-panel-title\">${1:面板标题}</h3>\n  </header>\n  <div class=\"am-panel-bd\">\n    ${2:面板内容}\n  </div>\n  <footer class=\"am-panel-footer\">${3:面板页脚}</footer>\n</section>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-panel:table": {
+		"prefix": "am-panel:table",
+		"body": "\n\n<section class=\"am-panel am-panel-default\">\n  <div class=\"am-panel-bd\">\n    ${1:面板内容}\n  </div>\n  <table class=\"am-table\">\n    <thead></thead>\n    <tbody></tbody>\n  </table>\n  <footer class=\"am-panel-footer\">${2:面板页脚}</footer>\n</section>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-panel:warning": {
+		"prefix": "am-panel:warning",
+		"body": "\n\n<section class=\"am-panel am-panel-warning\">\n  <header class=\"am-panel-hd\">\n    <h3 class=\"am-panel-title\">${1:面板标题}</h3>\n  </header>\n  <div class=\"am-panel-bd\">\n    ${2:面板内容}\n  </div>\n  <footer class=\"am-panel-footer\">${3:面板页脚}</footer>\n</section>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-panel": {
+		"prefix": "am-panel",
+		"body": "\n\n<section class=\"am-panel am-panel-default\">\n  <header class=\"am-panel-hd\">\n    <h3 class=\"am-panel-title\">${1:面板标题}</h3>\n  </header>\n  <div class=\"am-panel-bd\">\n    ${2:面板内容}\n  </div>\n  <footer class=\"am-panel-footer\">${3:面板页脚}</footer>\n</section>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-popover": {
+		"prefix": "am-popover",
+		"body": "\n\n<button class=\"am-btn am-btn-success\" data-am-popover=\"{content: '${1:内容}', trigger: 'hover focus'}\">\n  ${2:Popover}\n</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-progress:danger": {
+		"prefix": "am-progress:danger",
+		"body": "\n\n<div class=\"am-progress\">\n  <div class=\"am-progress-bar am-progress-bar-danger\" style=\"${1:width: 15%}\"></div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-progress:secondary": {
+		"prefix": "am-progress:secondary",
+		"body": "\n\n<div class=\"am-progress\">\n  <div class=\"am-progress-bar am-progress-bar-secondary\" style=\"${1:width: 15%}\"></div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-progress:sm": {
+		"prefix": "am-progress:sm",
+		"body": "\n\n<div class=\"am-progress am-progress-sm\">\n  <div class=\"am-progress-bar\" style=\"${1:width: 15%}\"></div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-progress:striped": {
+		"prefix": "am-progress:striped",
+		"body": "\n\n<div class=\"am-progress am-progress-striped\">\n  <div class=\"am-progress-bar\" style=\"${1:width: 15%}\"></div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-progress:success": {
+		"prefix": "am-progress:success",
+		"body": "\n\n<div class=\"am-progress\">\n  <div class=\"am-progress-bar am-progress-bar-success\" style=\"${1:width: 15%}\"></div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-progress:warning": {
+		"prefix": "am-progress:warning",
+		"body": "\n\n<div class=\"am-progress\">\n  <div class=\"am-progress-bar am-progress-bar-warning\" style=\"${1:width: 15%}\"></div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-progress:xs": {
+		"prefix": "am-progress:xs",
+		"body": "\n\n<div class=\"am-progress am-progress-xs\">\n  <div class=\"am-progress-bar\" style=\"${1:width: 15%}\"></div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-progress": {
+		"prefix": "am-progress",
+		"body": "\n\n<div class=\"am-progress\">\n  <div class=\"am-progress-bar\" style=\"width: ${1:40%}\">40%</div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-scrollspy:fade": {
+		"prefix": "am-scrollspy:fade",
+		"body": "\n\n<div data-am-scrollspy=\"'{animation: 'fade'${1:, delay: 3000, repeat: false}'}\">\n  ${2:内容}\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-scrollspy-nav": {
+		"prefix": "am-scrollspy-nav",
+		"body": "\n\n<nav class=\"scrollspy-nav\" data-am-scrollspy-nav data-am-sticky>\n  <ul>\n    <li><a href=\"#${1:title}\">${2:标题}</a></li>\n  </ul>\n</nav>\n<div id=\"${1:title}\">\n  ${4:侦测滚动}\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-scrollspy:scale-down": {
+		"prefix": "am-scrollspy:scale-down",
+		"body": "\n\n<div data-am-scrollspy=\"'{animation: 'scale-down'${1:, delay: 3000, repeat: false}'}\">\n  ${2:内容}\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-scrollspy:scale-up": {
+		"prefix": "am-scrollspy:scale-up",
+		"body": "\n\n<div data-am-scrollspy=\"'{animation: 'scale-up'${1:, delay: 3000, repeat: false}'}\">\n  ${2:内容}\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-scrollspy:shake": {
+		"prefix": "am-scrollspy:shake",
+		"body": "\n\n<div data-am-scrollspy=\"'{animation: 'shake'${1:, delay: 3000, repeat: false}'}\">\n  ${2:内容}\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-scrollspy:slide-bottom": {
+		"prefix": "am-scrollspy:slide-bottom",
+		"body": "\n\n<div data-am-scrollspy=\"'{animation: 'slide-bottom'${1:, delay: 3000, repeat: false}'}\">\n  ${2:内容}\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-scrollspy:slide-left": {
+		"prefix": "am-scrollspy:slide-left",
+		"body": "\n\n<div data-am-scrollspy=\"'{animation: 'slide-left'${1:, delay: 3000, repeat: false}'}\">\n  ${2:内容}\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-scrollspy:slide-right": {
+		"prefix": "am-scrollspy:slide-right",
+		"body": "\n\n<div data-am-scrollspy=\"'{animation: 'slide-right'${1:, delay: 3000, repeat: false}'}\">\n  ${2:内容}\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-scrollspy:slide-top": {
+		"prefix": "am-scrollspy:slide-top",
+		"body": "\n\n<div data-am-scrollspy=\"'{animation: 'slide-top'${1:, delay: 3000, repeat: false}'}\">\n  ${2:内容}\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-scrollspy": {
+		"prefix": "am-scrollspy",
+		"body": "\n\n<div data-am-scrollspy=\"'{animation: ''${1:, delay: 3000, repeat: false}'}\">\n  ${2:内容}\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-selected:group": {
+		"prefix": "am-selected:group",
+		"body": "\n\n<select multiple data-am-selected>\n  <optgroup label=\"group1\">\n    <option value=\"${1:a1}\">${2:title #1}</option>\n    <option value=\"${3:a2}\" selected>${4:selected #1}</option>\n  </optgroup>\n  <optgroup label=\"group2\">\n    <option value=\"${5:a3}\">${6:title #2}</option>\n    <option value=\"${7:a4}\" selected>${8:selected #2}</option>\n  </optgroup>\n</select>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-selected:multiple": {
+		"prefix": "am-selected:multiple",
+		"body": "\n\n<select multiple data-am-selected>\n  <option value=\"${1:a1}\">${2:title}</option>\n  <option value=\"${3:a2}\" selected>${4:selected}</option>\n</select>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-selected": {
+		"prefix": "am-selected",
+		"body": "\n\n<select data-am-selected>\n  <option value=\"${1:a1}\">${2:title}</option>\n  <option value=\"${3:a2}\" selected>${4:selected}</option>\n</select>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-slider": {
+		"prefix": "am-slider",
+		"body": "\n\n<div class=\"am-slider am-slider-default\" data-am-flexslider>\n  <ul class=\"am-slides\">\n    <li><img src=\"${1:图片地址}\" /></li>\n  </ul>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-smoothscroll": {
+		"prefix": "am-smoothscroll",
+		"body": "\n\n<button data-am-smooth-scroll type=\"button\">${1:滚动到顶部}</button>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-sticky": {
+		"prefix": "am-sticky",
+		"body": "\n\n<div data-am-sticky>\n  <button class=\"am-btn am-btn-primary am-btn-block\">${1:Stick to top}</button>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-table:bordered": {
+		"prefix": "am-table:bordered",
+		"body": "\n\n<table class=\"am-table am-table-bordered${1: am-table-hover}\">\n  <thead>\n    <tr>\n      <th>${2:表格标题}</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>${3:表格内容1}</td>\n    </tr>\n    <tr class=\"am-active\">\n      <td>${4:active 表格内容}</td>\n    </tr>\n  </tbody>\n</table>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-table:radius": {
+		"prefix": "am-table:radius",
+		"body": "\n\n<table class=\"am-table am-table-radius${1: am-table-hover}\">\n  <thead>\n    <tr>\n      <th>${2:表格标题}</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>${3:表格内容1}</td>\n    </tr>\n    <tr class=\"am-active\">\n      <td>${4:active 表格内容}</td>\n    </tr>\n  </tbody>\n</table>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-table:striped": {
+		"prefix": "am-table:striped",
+		"body": "\n\n<table class=\"am-table am-table-striped${1: am-table-hover}\">\n  <thead>\n    <tr>\n      <th>${2:表格标题}</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>${3:表格内容1}</td>\n    </tr>\n    <tr class=\"am-active\">\n      <td>${4:active 表格内容}</td>\n    </tr>\n  </tbody>\n</table>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-table": {
+		"prefix": "am-table",
+		"body": "\n\n<table class=\"am-table${1: am-table-hover}\">\n  <thead>\n    <tr>\n      <th>${2:表格标题}</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>${3:表格内容1}</td>\n    </tr>\n    <tr class=\"am-active\">\n      <td>${4:active 表格内容}</td>\n    </tr>\n  </tbody>\n</table>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-tabs": {
+		"prefix": "am-tabs",
+		"body": "\n\n<div class=\"am-tabs\" data-am-tabs>\n  <ul class=\"am-tabs-nav am-nav am-nav-tabs\">\n    <li class=\"am-active\"><a href=\"#tab1\">${1:active 标题}</a></li>\n    <li><a href=\"#tab2\">${2:标题}</a></li>\n  </ul>\n\n  <div class=\"am-tabs-bd\">\n    <div class=\"am-tab-panel am-fade am-in am-active\" id=\"tab1\">\n      ${3:active 内容}\n    </div>\n    <div class=\"am-tab-panel am-fade\" id=\"tab2\">\n      ${4:内容}\n    </div>\n  </div>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-thumbnail": {
+		"prefix": "am-thumbnail",
+		"body": "\n\n<!-- 能结合 Grid、AVG Grid 使用 -->\n<div class=\"am-thumbnail\">\n  <img src=\"\" alt=\"\"/>\n  <h3 class=\"am-thumbnail-caption\">${1:图片标题}</h3>\n</div>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-topbar:fixed-bottom": {
+		"prefix": "am-topbar:fixed-bottom",
+		"body": "\n\n<header class=\"am-topbar am-topbar-fixed-bottom\">\n  <h1 class=\"am-topbar-brand\">\n      <a href=\"#\">${1:Topbar 导航条}</a>\n  </h1>\n  <!-- screen < 640 button show -->\n  <button class=\"am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only\" data-am-collapse=\"{target: '${2:#doc-topbar-collapse}'}\"><span class=\"am-sr-only\">${3:导航切换}</span> <span class=\"am-icon-bars\"></span></button>\n\n  <!-- screen < 640 hide -->\n  <div class=\"am-collapse am-topbar-collapse\" id=\"${4:doc-topbar-collapse}\">\n    <ul class=\"am-nav am-nav-pills am-topbar-nav\">\n      <li class=\"am-active\"><a href=\"#\">${5:下拉列表 active}</a></li>\n      <li class=\"am-dropdown\" data-am-dropdown>\n        <a class=\"am-dropdown-toggle\" data-am-dropdown-toggle href=\"javascript:;\">\n          ${6:下拉} <span class=\"am-icon-caret-down\"></span>\n        </a>\n        <ul class=\"am-dropdown-content\">\n          <li class=\"am-dropdown-header\">${7:li header}</li>\n          <li><a href=\"#\">${8:下拉列表01}</a></li>\n        </ul>\n      </li>\n    </ul>\n\n    <!-- topbar-right -->\n    <div class=\"am-topbar-right\">\n      <button class=\"am-btn am-btn-primary am-topbar-btn am-btn-sm\">${9:内容}</button>\n    </div>\n  </div>\n</header>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-topbar:fixed-top": {
+		"prefix": "am-topbar:fixed-top",
+		"body": "\n\n<header class=\"am-topbar am-topbar-fixed-top\">\n  <h1 class=\"am-topbar-brand\">\n      <a href=\"#\">${1:Topbar 导航条}</a>\n  </h1>\n  <!-- screen < 640 button show -->\n  <button class=\"am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only\" data-am-collapse=\"{target: '${2:#doc-topbar-collapse}'}\"><span class=\"am-sr-only\">${3:导航切换}</span> <span class=\"am-icon-bars\"></span></button>\n\n  <!-- screen < 640 hide -->\n  <div class=\"am-collapse am-topbar-collapse\" id=\"${4:doc-topbar-collapse}\">\n    <ul class=\"am-nav am-nav-pills am-topbar-nav\">\n      <li class=\"am-active\"><a href=\"#\">${5:下拉列表 active}</a></li>\n      <li class=\"am-dropdown\" data-am-dropdown>\n        <a class=\"am-dropdown-toggle\" data-am-dropdown-toggle href=\"javascript:;\">\n          ${6:下拉} <span class=\"am-icon-caret-down\"></span>\n        </a>\n        <ul class=\"am-dropdown-content\">\n          <li class=\"am-dropdown-header\">${7:li header}</li>\n          <li><a href=\"#\">${8:下拉列表01}</a></li>\n        </ul>\n      </li>\n    </ul>\n\n    <!-- topbar-right -->\n    <div class=\"am-topbar-right\">\n      <button class=\"am-btn am-btn-primary am-topbar-btn am-btn-sm\">${9:内容}</button>\n    </div>\n  </div>\n</header>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-topbar:inverse": {
+		"prefix": "am-topbar:inverse",
+		"body": "\n\n<header class=\"am-topbar am-topbar-inverse\">\n  <h1 class=\"am-topbar-brand\">\n      <a href=\"#\">${1:Topbar 导航条}</a>\n  </h1>\n  <!-- screen < 640 button show -->\n  <button class=\"am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only\" data-am-collapse=\"{target: '${2:#doc-topbar-collapse}'}\"><span class=\"am-sr-only\">${3:导航切换}</span> <span class=\"am-icon-bars\"></span></button>\n\n  <!-- screen < 640 hide -->\n  <div class=\"am-collapse am-topbar-collapse\" id=\"${4:doc-topbar-collapse}\">\n    <ul class=\"am-nav am-nav-pills am-topbar-nav\">\n      <li class=\"am-active\"><a href=\"#\">${5:下拉列表 active}</a></li>\n      <li class=\"am-dropdown\" data-am-dropdown>\n        <a class=\"am-dropdown-toggle\" data-am-dropdown-toggle href=\"javascript:;\">\n          ${6:下拉} <span class=\"am-icon-caret-down\"></span>\n        </a>\n        <ul class=\"am-dropdown-content\">\n          <li class=\"am-dropdown-header\">${7:li header}</li>\n          <li><a href=\"#\">${8:下拉列表01}</a></li>\n        </ul>\n      </li>\n    </ul>\n\n    <!-- topbar-right -->\n    <div class=\"am-topbar-right\">\n      <button class=\"am-btn am-btn-primary am-topbar-btn am-btn-sm\">${9:内容}</button>\n    </div>\n  </div>\n</header>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-topbar": {
+		"prefix": "am-topbar",
+		"body": "\n\n<header class=\"am-topbar\">\n  <h1 class=\"am-topbar-brand\">\n      <a href=\"#\">${1:Topbar 导航条}</a>\n  </h1>\n  <!-- screen < 640 button show -->\n  <button class=\"am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only\" data-am-collapse=\"{target: '${2:#doc-topbar-collapse}'}\"><span class=\"am-sr-only\">${3:导航切换}</span> <span class=\"am-icon-bars\"></span></button>\n\n  <!-- screen < 640 hide -->\n  <div class=\"am-collapse am-topbar-collapse\" id=\"${4:doc-topbar-collapse}\">\n    <ul class=\"am-nav am-nav-pills am-topbar-nav\">\n      <li class=\"am-active\"><a href=\"#\">${5:下拉列表 active}</a></li>\n      <li class=\"am-dropdown\" data-am-dropdown>\n        <a class=\"am-dropdown-toggle\" data-am-dropdown-toggle href=\"javascript:;\">\n          ${6:下拉} <span class=\"am-icon-caret-down\"></span>\n        </a>\n        <ul class=\"am-dropdown-content\">\n          <li class=\"am-dropdown-header\">${7:li header}</li>\n          <li><a href=\"#\">${8:下拉列表01}</a></li>\n        </ul>\n      </li>\n    </ul>\n\n    <!-- topbar-right -->\n    <div class=\"am-topbar-right\">\n      <button class=\"am-btn am-btn-primary am-topbar-btn am-btn-sm\">${9:内容}</button>\n    </div>\n  </div>\n</header>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-ucheck:checked": {
+		"prefix": "am-ucheck:checked",
+		"body": "\n\n<label class=\"am-checkbox\">\n  <input type=\"${1:checkbox}\" value=\"\" data-am-ucheck checked> ${2:checked}\n</label>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-ucheck:disabled": {
+		"prefix": "am-ucheck:disabled",
+		"body": "\n\n<label class=\"am-checkbox\">\n  <input type=\"${1:checkbox}\" value=\"\" data-am-ucheck disabled> ${2:disabled}\n</label>\n\n  ",
+		"description": "",
+		"scope": ""
+	},
+	"am-ucheck": {
+		"prefix": "am-ucheck",
+		"body": "\n\n<label class=\"am-checkbox\">\n  <input type=\"${1:checkbox}\" value=\"\" data-am-ucheck> ${2:title}\n</label>\n\n  ",
+		"description": "",
+		"scope": ""
+	}
+}

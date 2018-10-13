@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title id='title'>Chat</title>
+    <meta name="renderer" content="webkit">
+    <script src="js/jq.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <script src="js/vuejs.js"></script>
+    <link rel="stylesheet" href="css/amazeui.css">
+    <link rel="stylesheet" href="css/masnn.css">
+    <script src="js/layer/layer.js"></script>
+    <script src="js/EncodeUtf8.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/cq-websocket/dist/cq-websocket.min.js"></script>
+</head>
+
+<body>
+    <!--[if lte IE 9 ]>
+    <div class="ie-warning"><button type="button">&times;</button>
+    365 安全卫士提醒：你的浏览器太古董了，<a href="http://browsehappy.com/" target="_blank">速速点击换一个</a>！
+   </div><![endif]-->
+    <div id="app" style="width: 100%; margin: 0 auto; ">
+        <div v-for="i in contexts">
+            <p v-if="i.message_type=='group'" v-html="i.group+' | '+i.sender.card+'('+i.user_id+'): '+i.message"></p>
+            <p v-if="i.message_type=='private'" v-html="i.sender.nickname+'('+i.user_id+'): '+i.message"></p>
+        </div>
+    </div>
+    <i class="am-icon-cog am-icon-btn am-icon-md masnn-settings" onclick="opensettings();"></i>
+    <script type="text/html" id="settingsTemplate">
+        <button class="am-btn am-btn-default" onclick="startNotification();">Use Windows Notification</button>
+        <button class="am-btn am-btn-default" onclick="app.manageMode=!app.manageMode">Switch manage</button>
+    </script>
+    <script>
+        NotificationOn = false;
+        reg_img = /([/s/S]*)\[CQ:image,file=(.*),url=(.*)\]([/s/S]*)/i
+        reg_at = /([/s/S]*)\[CQ:at,qq=(.*)\]([/s/S]*)/i
+        app = new Vue({
+            el: "#app",
+            data: {
+                contexts: [], manageMode: false, blacklist: []
+            }
+        })
+        const CQ = new window.CQWebSocket()
+        CQ
+            .on('socket.error', console.error)
+            .on('socket.connecting', (wsType, attempts) => console.log('尝试第 %d 次连线 _(:з」∠)_', attempts))
+            .on('socket.connect', (wsType, sock, attempts) => console.log('第 %d 次连线成功 ヽ(✿ﾟ▽ﾟ)ノ', attempts))
+            .on('socket.failed', (wsType, attempts) => console.log('第 %d 次连线失败 。･ﾟ･(つд`ﾟ)･ﾟ･', attempts))
+            .on('api.response', (resObj) => console.log('服务器响应: %O', resObj))
+            .on('socket.close', (wsType, code, desc) => console.log('[%s] 连接关闭(%d: %s)', wsType, code, desc))
+            .on('ready', () => console.log('初始化完成，开始处理消息'))
+            .on('message', (e, context) => {
+                console.log(context)
+                var data=process(context);
+                app.contexts.push(data)
+                if (NotificationOn) {
+                    WindowsMsg = new Notification(data.sender.nickname, {
+                        body: data.raw,
+                        icon: "https://q2.qlogo.cn/headimg_dl?dst_uin=" + data.user_id + "&spec=100",
+                        renotify: true,
+                        tag: "P_" + data.user_id
+                    });
+                    console.log("Notification")
+                }
+            })
+            .on('message.group', (e, context) => {
+                console.log(context)
+                var data=process(context);
+                app.contexts.push(data)
+                if (NotificationOn) {
+                    WindowsMsg = new Notification(data.sender.card + "-" + data.group, {
+                        body: data.message,
+                        icon: "http://p.qlogo.cn/gh/" + data.group_id + "/" + data.group_id + "/640/",
+                        renotify: true,
+                        tag: "G_" + context.group_id
+                    });
+                    console.log("Notification")
+                }
+            })
+        function process(data){
+            var context = data;
+            var tmp
+            context.raw = context.message
+            tmp = reg_img.exec(context.message)
+            while (tmp != null) {
+                context.message = tmp[1] + "<img style='max-width:300px;max-height:300px;' src=" + tmp[2] + ">" + tmp[3]
+                tmp = reg_img.exec(context.message)
+            }
+            tmp = reg_img.exec(context.raw)
+            while (tmp != null) {
+                context.raw = tmp[1] + "[图片]" + tmp[3]
+                tmp = reg_img.exec(context.raw)
+            }
+            tmp=reg_at.exec(context.message)
+            while (tmp!=null){
+                context.message=tmp[1]+" @"+tmp[2]+" "+tmp[3]
+                tmp=reg_at.exec(context.message)
+            }
+            tmp = reg_at.exec(context.raw)
+            while (tmp != null) {
+                context.raw = tmp[1] + " @" + tmp[2] + " " + tmp[3]
+                tmp = reg_at.exec(context.raw)
+            }
+            return context;
+        }
+        function HTMLEncode(html) {
+            var temp = document.createElement("div")(temp.textContent != null) ? (temp.textContent = html) : (temp.innerText = html)
+            var output = temp.innerHTML; temp = null; return output
+        }
+        function startNotification() {
+            NotificationOn = true;
+            Notification.requestPermission().then(function (result) {
+                if (result == "denied") layer.msg("Error:Permission denied.")
+                if (result == "granted") layer.msg("Success")
+            });
+        }
+        function opensettings() {
+            layer.open({
+                type: 1,
+                skin: 'layui-layer-demo',
+                closeBtn: 1,
+                anim: 2,
+                shadeClose: true,
+                content: $('#settingsTemplate').html()
+            });
+        }
+        CQ.connect()
+    </script>
+</body>
+
+</html>

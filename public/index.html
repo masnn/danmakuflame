@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title id='title'>Chat</title>
+    <meta name="renderer" content="webkit">
+    <script src="js/jq.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <script src="js/vuejs.js"></script>
+    <link rel="stylesheet" href="css/amazeui.css">
+    <script src="js/layer/layer.js"></script>
+    <script src="js/EncodeUtf8.js"></script>
+    <link rel="stylesheet" href="css/masnn.css">
+</head>
+
+<body onunload="localStorage.getItem('blacklist',blacklist)">
+    <!--[if lte IE 9 ]>
+    <div class="ie-warning"><button type="button">&times;</button>
+    365 安全卫士提醒：你的浏览器太古董了，<a href="http://browsehappy.com/" target="_blank">速速点击换一个</a>！
+   </div><![endif]-->
+    <div id="app" style="width: 100%; margin: 0 auto; max-height: 1000px;">
+        <div v-for="i in texts">
+            <div v-html="i.sender+' : '+i.content" v-if="window.listen==i.group_id"></div>
+            <div v-html="i.group+' | '+i.sender+' : '+i.content" v-if="window.listen==''"></div>
+            <button class="am-btn am-btn-default" @click="addblack(i.group)" v-if="manageMode&&$.inArray(i.group,blacklist)==-1">屏蔽此群</button>
+            <button class="am-btn am-btn-default" @click="removeblack(i.group)" v-if="manageMode&&$.inArray(i.group,blacklist)!=-1">解除屏蔽</button>
+        </div>
+    </div>
+    <i class="am-icon-cog am-icon-btn am-icon-md masnn-settings" onclick="opensettings();"></i>
+    <script type="text/html" id="settingsTemplate">
+        <button class="am-btn am-btn-default" onclick="startNotification();">Use Windows Notification</button>
+        <button class="am-btn am-btn-default" onclick="app.manageMode=!app.manageMode">Switch manage</button>
+    </script>
+    <script>
+        function addblack(group) {
+            if ($.inArray(group, app.blacklist) == -1)
+                app.blacklist.push(group)
+        }
+        function removeblack(group) {
+            app.blacklist.splice($.inArray(group, app.blacklist))
+        }
+        NotificationOn = false;
+        wsurl = window.location.search.split('?')[1];
+        listen = window.location.search.split('$')[1];
+        if (typeof listen == "undefined") listen = '';
+        if (typeof wsurl == "undefined") wsurl = "ws://localhost:25566/";
+        layer.msg("正在连接到服务器");
+        if (!window.WebSocket)
+            layer.alert('Error:This browser does not supports WebSocket');
+        app = new Vue({
+            el: '#app',
+            data: { texts: [], manageMode: false, blacklist: [] }
+        })
+        socket = new WebSocket(wsurl);
+        socket.onopen = function (event) {
+            layer.msg("已连接");
+        };
+        socket.onmessage = function (event) {
+            var data = JSON.parse(event.data);
+            console.log('Client received a message', data);
+            if ((window.listen == data.group_id || window.listen == '') && data.content != null && data.type == 'group_message' && $.inArray(data.group, app.blacklist) == -1) {
+                if (NotificationOn) {
+                    WindowsMsg = new Notification(data.sender+"-"+data.group, {
+                        body: data.content,
+                        icon: "http://p.qlogo.cn/gh/" + data.group_id + "/" + data.group_id + "/640/",
+                        renotify: true,
+                        tag: "New Msg"
+                    });
+                    console.log("Notification");
+                }
+                app.texts.push(data);
+                $("#app").scrollTop($("#app").height());
+            }
+        };
+        WindowsMsg.onclick=reply(WindowsMsg.group_id)
+        socket.onclose = function (event) {
+            console.log('Client notified socket has closed', event);
+            layer.msg("已断开连接");
+        };
+        function HTMLEncode(html) {
+            var temp = document.createElement("div");
+            (temp.textContent != null) ? (temp.textContent = html) : (temp.innerText = html);
+            var output = temp.innerHTML;
+            temp = null;
+            return output;
+        }
+        function startNotification() {
+            NotificationOn = true;
+            Notification.requestPermission().then(function (result) {
+                if (result == "denied") layer.msg("Error:Permission denied.");
+                if (result == "granted") layer.msg("Success");
+            });
+        }
+        function opensettings() {
+            layer.open({
+                type: 1,
+                skin: 'layui-layer-demo',
+                closeBtn: 1,
+                anim: 2,
+                shadeClose: true,
+                content: $('#settingsTemplate').html()
+            });
+        }
+    </script>
+    <!--
+        $(function(){
+			$("#addBtn").click(function(){
+				console.log("sadff");
+				var reg = new RegExp("\\[([^\\[\\]]*?)\\]", 'igm');
+				var html = document.getElementById("temp").innerHTML;
+				for(var i=0;i<10;i++){
+					var source = html.replace(reg, function(node, key) {  
+		                return {  
+		                    'title' : '我是hbuilder啊，哈哈哈哈', 
+		                    'dateA' : '2016-09-19'
+		                }[key];  
+		            });  
+		            $(".list").append(source);
+				}
+			});
+		});
+    -->
+</body>
+
+</html>
